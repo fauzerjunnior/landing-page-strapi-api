@@ -24,7 +24,6 @@
       ]
     },
     "button": {
-      "displayName": "button",
       "type": "component",
       "repeatable": false,
       "component": "button.button",

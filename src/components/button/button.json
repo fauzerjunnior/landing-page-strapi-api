@@ -2,17 +2,19 @@
   "collectionName": "components_button_buttons",
   "info": {
     "displayName": "button",
-    "icon": "external-link-square-alt"
+    "icon": "external-link-square-alt",
+    "description": ""
   },
   "options": {},
   "attributes": {
-    "title": {
+    "label": {
       "type": "string",
       "required": true
     },
-    "link": {
+    "url": {
       "type": "string",
-      "required": true
+      "required": true,
+      "default": "#"
     }
   }
 }
