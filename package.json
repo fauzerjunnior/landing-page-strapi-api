@@ -5,14 +5,11 @@
   "description": "A Strapi application",
   "scripts": {
     "develop": "strapi develop",
-    "start": "node server.js",
-    "staging": "cross-env NODE_ENV=staging npm start",
-    "prod": "cross-env NODE_ENV=production npm start",
+    "start": "strapi start",
     "build": "strapi build",
     "strapi": "strapi"
   },
   "devDependencies": {
-    "@strapi/provider-upload-aws-s3": "^4.5.3",
     "cross-env": "^7.0.3"
   },
   "dependencies": {
