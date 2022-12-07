@@ -16,6 +16,7 @@
     "@strapi/plugin-graphql": "^4.5.2",
     "@strapi/plugin-i18n": "4.5.2",
     "@strapi/plugin-users-permissions": "4.5.2",
+    "@strapi/provider-upload-cloudinary": "^4.5.3",
     "@strapi/strapi": "4.5.2",
     "pg": "8.6.0",
     "strapi-plugin-ckeditor5": "^2.1.1-rc.1"
